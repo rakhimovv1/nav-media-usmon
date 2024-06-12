@@ -99,3 +99,66 @@ nav ul li{
 }
     
   }
+
+
+
+
+  .s-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: max-content;
+    padding: 60px 0;
+    gap: 50px;
+
+  }
+
+  .s-right img{
+    width: 100%;
+    max-width: 600px;
+
+  }
+
+  .s-left{
+    h1{
+        font-size: 70px;
+    }
+    p{
+        font-size: 25px;
+        padding: 30px 0;
+        max-width: 400px;
+    }
+    button{
+        border: 0;
+        background-color: green;
+        color: #fff;
+        padding: 10px 15px;
+        font-size: 25px;
+        border-radius: 10px;
+        cursor: pointer;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+  }
+
+  @media (max-width:952px) {
+    .s-main{
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px 0;
+        gap: 20px;
+    
+      }
+      .s-left{
+        text-align: center;
+        p{
+            max-width: 100%;
+        }
+        h1{
+            font-size: 40px;
+        }
+      }
+    
+  }
